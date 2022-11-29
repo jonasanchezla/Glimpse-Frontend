@@ -1,70 +1,34 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h1>Glimpse Front End</h1>
+https://glimpse-frontend.herokuapp.com/
+<br></br>
+<p2>Do you want to keep track of special moments in your life? With Glimpse you can post pictures wth descriptions that you want to keep track of. Easy to use, easy to post, and easy to keep track of all your posts! Using the MERN stack I developed an app where users can upload any photo in just a few seconds.</p2>
+<br></br>
+<p2>Technologies Used:</p2>
+<li>React</li>
+<li>Javascript</li>
+<li>Redux</li>
+<li>Material UI</li>
+<li>Node</li>
+<li>Express</li>
+<li>Mongoose</li>
+<li>MongoDB</li>
+<br></br>
+<h2>WireFrames</h2>
+> Wireframes with basic page layouts<br />
+<img width="584" alt="Screen Shot 2022-11-01 at 4 40 14 PM" src="https://media.git.generalassemb.ly/user/43661/files/e5ec3f76-4c6c-4db9-8832-1e426d6f16bd">
+<img width="911" alt="Screen Shot 2022-11-01 at 4 56 17 PM" src="https://media.git.generalassemb.ly/user/43661/files/80ca90c8-d5e0-4dd0-a0b5-42029f16623a">
+<img width="317" alt="Screen Shot 2022-11-01 at 4 56 35 PM" src="https://media.git.generalassemb.ly/user/43661/files/1950251d-fad4-407f-9039-92012faa699f">
+<br></br>
+<p2>Features for the future:</p2>
+<li>Authentication</li>
+<li>Multiple pages</li>
+<li>Search Method</li>
+<br><br/>
+<p3>Helpful resources:</p3>
+<li>https://mui.com/material-ui/react-text-field/
+</li>
+<li>https://react-redux.js.org/api/hooks#usedispatch\
+</li>
+<li>https://www.youtube.com/watch?v=zrs7u6bdbUw
+</li>
+<li>https://blog.logrocket.com/understanding-redux-tutorial-examples/#:~:text=Simply%20put%2C%20Redux%20is%20used,remaining%20independent%20of%20the%20components.</li>
