@@ -23,7 +23,8 @@ https://glimpse-frontend.herokuapp.com/
 <li>Authentication</li>
 <li>Multiple pages</li>
 <li>Search Method</li>
-<p3>Helpful resources</p3>
+<br><br/>
+<p3>Helpful resources:</p3>
 <li>https://mui.com/material-ui/react-text-field/
 </li>
 <li>https://react-redux.js.org/api/hooks#usedispatch\
