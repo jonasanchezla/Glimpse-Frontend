@@ -23,3 +23,11 @@ https://glimpse-frontend.herokuapp.com/
 <li>Authentication</li>
 <li>Multiple pages</li>
 <li>Search Method</li>
+<p3>Helpful resources</p3>
+<li>https://mui.com/material-ui/react-text-field/
+</li>
+<li>https://react-redux.js.org/api/hooks#usedispatch\
+</li>
+<li>https://www.youtube.com/watch?v=zrs7u6bdbUw
+</li>
+<li>https://blog.logrocket.com/understanding-redux-tutorial-examples/#:~:text=Simply%20put%2C%20Redux%20is%20used,remaining%20independent%20of%20the%20components.</li>
