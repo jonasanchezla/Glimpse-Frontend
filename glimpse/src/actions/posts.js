@@ -1,12 +1,12 @@
-import { FETCH_ALL, CREATE, UPDATE, DELETE, LIKE } from '../constants/actionTypes';
+import { GET, CREATE, UPDATE, DELETE, LIKE } from '../actiontypes/actionTypes';
 
-import * as api from '../api/index.js';
+import * as api from '../routes/index.js';
 
 export const getPosts = () => async (dispatch) => {
   try {
-    const { data } = await api.fetchPosts();
+    const { data } = await api.getPosts();
 
-    dispatch({ type: FETCH_ALL, payload: data });
+    dispatch({ type: GET, payload: data });
   } catch (error) {
     console.log(error.message);
   }

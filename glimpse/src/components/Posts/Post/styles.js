@@ -4,11 +4,10 @@ export default makeStyles({
   media: {
     height: 0,
     paddingTop: '56.25%',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    backgroundBlendMode: 'darken',
   },
   border: {
     border: 'solid',
+    color: 'red'
   },
   fullHeightCard: {
     height: '100%',
@@ -23,15 +22,15 @@ export default makeStyles({
   },
   overlay: {
     position: 'absolute',
-    top: '20px',
-    left: '20px',
-    color: 'white',
+    top: '5px',
+    left: '10px',
+    color: 'black',
   },
   overlay2: {
     position: 'absolute',
-    top: '20px',
-    right: '20px',
-    color: 'white',
+    top: '5px',
+    right: '10px',
+    color: 'red',
   },
   grid: {
     display: 'flex',
@@ -43,6 +42,7 @@ export default makeStyles({
   },
   title: {
     padding: '0 16px',
+    color: "Black",
   },
   cardActions: {
     padding: '0 16px 8px 16px',

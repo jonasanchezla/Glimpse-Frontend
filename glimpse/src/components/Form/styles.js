@@ -13,12 +13,15 @@ export default makeStyles((theme) => ({
     display: 'flex',
     flexWrap: 'wrap',
     justifyContent: 'center',
+    color: 'teal',
+    border: "solid"
   },
   fileInput: {
     width: '97%',
     margin: '10px 0',
   },
   buttonSubmit: {
-    marginBottom: 10,
+    margin: 20,
+    color:"Black"
   },
 }));
