@@ -7,18 +7,32 @@ import Form from './components/Form/Form';
 import { getPosts } from './actions/posts';
 import useStyles from './styles';
 import camera from './images/cameraaaa.png';
+import axios from 'axios'
+import {Images} from './components/Images.js'
 
-//
 const App = () => {
   const [currentId, setCurrentId] = useState(0);
   const dispatch = useDispatch();
   const classes = useStyles();
+
+  const [images, setImages]=useState([])
+
+  const fetchAPI=async()=>{
+    const response= await axios.get('https://api.unsplash.com/photos/?client_id=XUDP6b0_gu2q2EGEC8HCib6FRogehJhwO482fToZzt8')
+    // console.log(response.data);
+    const data = await response.data;
+    setImages(data)
+  }
 
   useEffect(() => {
     dispatch(getPosts());
   }, [currentId, dispatch]);
 
   return (
+    
+
+
+
     <Container maxWidth="lg">
       <AppBar className={classes.appBar} position="static" color="secondary">
         <Typography 
@@ -38,7 +52,22 @@ const App = () => {
           </Grid>
         </Container>
       </Grow>
+
+      <div className='container'>
+        <button className='' onClick={fetchAPI}>
+          Search For Random Image
+        </button>
+        <div className='photos'>
+          {images.length>0&&(
+            <Images images={images} />
+          )}
+
+        </div>
+
+      </div>
     </Container>
+    
+    
   );
 };
 
