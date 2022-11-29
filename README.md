@@ -1,7 +1,7 @@
 <h1>Glimpse Front End</h1>
 https://glimpse-frontend.herokuapp.com/
 <br></br>
-<p2>Do you want to keep track of special moments in your life? With Glimpse you can post pictures wth descriptions that you want to keep track of. Easy to use, easy to post, and easy to keep track of all your posts! Using the MERN stack I developed an app where users can upload any photo in just a few seconds.</p2>
+<p2>Do you want to keep track of special moments in your life? With Glimpse you can post pictures wth descriptions that you want to keep track of. Easy to use, easy to post, and easy to keep track of all your posts! Using the MERN stack I developed an app where users can upload any photo in just a few seconds. You are also able to search form images using the Unsplash API.</p2>
 <br></br>
 <p2>Technologies Used:</p2>
 <li>React</li>
